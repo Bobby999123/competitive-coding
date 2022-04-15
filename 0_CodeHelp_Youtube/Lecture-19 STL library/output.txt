@@ -1,0 +1,10 @@
+capacity: 0
+capacity: 1
+capacity: 2
+capacity: 4
+size: 3
+element at postion 2 : 3
+element at front: 1
+element at back: 3
+element before poping: 1 2 3 
+element after poping: 1 2 
