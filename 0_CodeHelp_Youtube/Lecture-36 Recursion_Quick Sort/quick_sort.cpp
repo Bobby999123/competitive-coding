@@ -5,7 +5,7 @@ using namespace std;
 int partition(vector<int> &arr,int s,int e){
 
 	
-int pivot=arr[s];
+    int pivot=arr[s];
 	int count=0;
 
 	for (int i = s+1; i <=e; i++)
@@ -72,7 +72,7 @@ int main(){
 	freopen("output.txt","w",stdout);
 #endif	
 
-	vector<int> arr{};
+	vector<int> arr{23,60,52,-9,-45,45,10,30};
 
 	
 

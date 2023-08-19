@@ -17,6 +17,7 @@ void insertAtBeggining(Node* &head,int d){
 	Node* temp=new Node(d);
 	temp->next=head;
 	head=temp;
+	
 
 
 }
@@ -82,29 +83,31 @@ int main(){
 	// cout<<node1->next<<endl;
 
 	Node* head=node1;
-	Node* tail=node1;
+	// Node* tail=node1;
 	print(head);
 
-	// insertAtBeggining(head,12);
+	insertAtBeggining(head,12);
+
+	print(head);
 
 
 
     // print(head);
-    insertAtTail(head,9);
-	print(head);
-	// insertAtBeggining(head,15);
+ //    insertAtTail(head,9);
 	// print(head);
+	// // insertAtBeggining(head,15);
+	// // print(head);
 
 	
 
-	insertAtTail(head,8);
+	// insertAtTail(head,8);
 
-	insertAtTail(head,4);
-	insertAtTail(head,1);
+	// insertAtTail(head,4);
+	// insertAtTail(head,1);
 
-	insertAtMiddle(head,4,6);
-	insertAtMiddle(head,7,22);
-	print(head);
+	// insertAtMiddle(head,4,6);
+	// insertAtMiddle(head,7,22);
+	// print(head);
 
 
 

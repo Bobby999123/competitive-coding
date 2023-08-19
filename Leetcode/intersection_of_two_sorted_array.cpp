@@ -31,19 +31,7 @@ vector<int> intersection_two_sorted_array(vector<int> a,vector<int> b){
         }
     }
     
-    // while(i<m){
-    //     if(ans[ans.size()-1]!=a[i]){
-    //         ans.push_back(a[i]);
-    //     }
-    //     i++;
-    // }
     
-    // while(j<n){
-    //     if(ans[ans.size()-1]!=b[j]){
-    //         ans.push_back(b[j]);
-    //     }
-    //     j++;
-    // }
     
    
     
